@@ -1,0 +1,61 @@
+
+.add-perfume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #121212;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .perfume-form {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+    color: #00df9a;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-btn {
+    background-color: #00df9a;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 37%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: blue;
+  }
+  

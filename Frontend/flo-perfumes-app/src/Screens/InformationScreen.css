@@ -1,0 +1,106 @@
+.information-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #121212;
+    color: #e0e0e0;
+    gap: 40px;
+    min-height: 100vh;
+  }
+  
+ 
+  .image-container {
+    flex: 1;
+  }
+  
+  .perfume-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .details-container {
+    flex: 2;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+
+  .details-container h1 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #00df9a;
+    text-align: center;
+  }
+  
+
+  .details-section {
+    margin-bottom: 20px;
+  }
+  
+  .details-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #00df9a;
+  }
+  
+  .details-section p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 8px;
+  }
+  
+ 
+  .supplier-info {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+  }
+  
+  .supplier-info p {
+    margin: 5px 0;
+  }
+  
+  .supplier-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .supplier-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  .title-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+  }
+  
+  .title-container h1 {
+    margin: 0; 
+    flex-grow: 1; 
+  }
+  
+  .favorite-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px; 
+  }
+  
+  .favorite-icon {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .favorite-icon.active {
+    color:#00df9a
+  }

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.homescreen-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    height: 100vh;
+    background-color: #121212;
+}
+
+.recommendation-card {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 100px;
+    max-height: 100px;
+    background-color: #e0e0e0;
+    margin-bottom: 20px;
+}
+
+.text-content h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #d69c0f;
+}
+
+.text-content p {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #d69c0f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top:10px;
+}
+.button:hover {
+    background-color: #b58309;
+}
+.card-content img {
+    max-width: 100%;
+    width: 200px;
+    max-height: 250px;
+    height: auto;
+    border-radius: 4px;
+}
+.details-link {
+    background-color: #d69c0f;
+    color: white;
+    display: block;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top:20px;
+}
+
+.details-link:hover {
+    background-color:#b58309 ;
+}
+

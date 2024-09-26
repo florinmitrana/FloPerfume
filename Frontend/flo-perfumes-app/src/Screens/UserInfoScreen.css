@@ -1,0 +1,94 @@
+.user-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 80vh;
+    background-color: #121212;
+}
+
+.user-card {
+    background-color: #222;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-details {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.user-details h2 {
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom: 8px;
+}
+.user-details p {
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom: 10px;
+}
+.password-change-section h3{
+    color:white;
+    margin-bottom: 20px;
+}
+
+.password-change-section {
+    width: 100%;
+}
+
+.password-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.change-password-btn {
+    background-color: #00df9a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left:37%;
+    max-width: fit-content;
+}
+
+.change-password-btn:hover {
+    background-color: blue;
+}
+
+.message {
+    margin-top: 15px;
+    color: #ff4d4d;
+    text-align: center;
+    font-weight: bold;
+}

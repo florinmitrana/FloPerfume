@@ -1,0 +1,143 @@
+.header-container {
+    background-color: #222;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-write {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.navbar-brand img {
+    height: 60px;
+    width: 60px;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.auth-btn {
+    background-color: #d69c0f;
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    max-height: 40px;
+}
+
+.auth-btn:hover {
+    background-color: #b58309;
+}
+
+.user-menu-toggle {
+    position: relative;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.user-icon {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fa-user-circle {
+    color: #d69c0f;
+    margin-right: 8px;
+    font-size: 30px;
+}
+
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    top:8%;
+    right:0%;
+    background-color: #d69c0f;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-family: inherit;
+    z-index: 9999;
+    width: 200px; 
+}
+
+.user-menu-toggle:hover .dropdown-menu,
+.user-menu-toggle:focus-within .dropdown-menu {
+    display: block; 
+}
+
+.dropdown-menu a,
+.dropdown-menu button {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    font-family: inherit;
+}
+
+.dropdown-menu button {
+    font-size: 14px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    font-family: inherit;
+}
+
+.dropdown-menu a:hover,
+.dropdown-menu button:hover {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .navbar-right {
+        flex-direction: column;
+    }
+
+    .auth-btn {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
